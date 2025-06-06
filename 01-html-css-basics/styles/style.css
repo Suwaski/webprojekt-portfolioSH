@@ -4,26 +4,27 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #eff7d4;
-    font-family: Arial, sans-serif;
+    background-color: #f4fbe0;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    padding-bottom: 50px; /* hack von mr dietrich */
+    padding-bottom: 100px; /* hack von mr dietrich */
 
 }
 
 header {
-    background-color: #85a184;
-    color: rgb(3, 74, 34);
-    font-family: 'Trebuchet MS';
+    background-image: url("jungle-ecuador.png");
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
     padding: 1em;
     text-align: center;
 }
 
 
 footer {
+    background-image: url("jungle-ecuador.png");
     background-color: #85a184;
-    color: rgb(54, 84, 64);
+    color: rgb(252, 254, 253);
     padding: 0.5em;
     text-align: center;
     position: fixed;
@@ -31,6 +32,55 @@ footer {
     width: 100%;
 }
  
+.layout1{
+    display: flex;
+
+}
+.start-container{
+    font-size: 24px;
+    position: absolute ;
+
+}
+
+.menu-link{
+    color:#85a184;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.menu-link:hover{
+    
+    text-decoration: underline;
+
+}
+
+.socialmedia{
+    width: 35px;
+}
+
+.socialmedia:hover{
+    width: 40px;
+}
+
+.socialmedia-logo{
+    margin-left: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-info{
+    position: absolute;
+    top: 20px;
+}
+
+.button{
+    background-color: #f4fbe0;
+    padding: 8px 30px;
+    color: black;
+    border-radius: 8px;
+    box-shadow: 5px 2px 15px rgba(0,0,0,0.3);
+}
+
 .rote-schrift {
     color: red;
 }
@@ -39,14 +89,16 @@ footer {
     color: rgb(4, 52, 29);
 }
 
-img {
+.basic-img {
+    display: flex;
+    justify-content: space-around;
     max-width: 600px;
     width: 100%;
     border-radius: 5px;
 }
 
 .main-content {
-    width: 70vw;
+    width: 60vw;
 }
 
 .main-container {
@@ -54,10 +106,14 @@ img {
     justify-content: center;
 }
 
+.layout1-img{
+    width: 50%;
+}
+
 .center-img {
-    width: 100%;
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .schrift-kursiv{
@@ -66,7 +122,7 @@ img {
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .container>div {

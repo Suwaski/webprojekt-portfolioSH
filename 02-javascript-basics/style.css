@@ -1,0 +1,91 @@
+/* Basis-Styling */
+body {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #eff7d4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50px; /* hack von mr dietrich */
+
+}
+
+header {
+    background-color: #85a184;
+    color: rgb(3, 74, 34);
+    font-family: 'Trebuchet MS';
+    padding: 1em;
+    text-align: center;
+}
+
+
+footer {
+    background-color: #85a184;
+    color: rgb(54, 84, 64);
+    padding: 0.5em;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+ 
+.rote-schrift {
+    color: red;
+}
+
+.Grün-schrift {
+    color: rgb(4, 52, 29);
+}
+
+img {
+    max-width: 600px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.main-content {
+    width: 70vw;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+
+.center-img {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.schrift-kursiv{
+    font-style: oblique;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container>div {
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
