@@ -34,12 +34,20 @@ footer {
  
 .layout1{
     display: flex;
+    gap: 50px;
 
 }
+
 .start-container{
-    font-size: 24px;
+    font-size: 20px;
     position: absolute ;
 
+}
+
+.socialmedia-hinweis{
+    position: absolute;
+    right: 170px;
+    color: #85a184;
 }
 
 .menu-link{
@@ -59,7 +67,7 @@ footer {
 }
 
 .socialmedia:hover{
-    width: 40px;
+    width: 36px;
 }
 
 .socialmedia-logo{
@@ -81,14 +89,6 @@ footer {
     box-shadow: 5px 2px 15px rgba(0,0,0,0.3);
 }
 
-.rote-schrift {
-    color: red;
-}
-
-.Grün-schrift {
-    color: rgb(4, 52, 29);
-}
-
 .basic-img {
     display: flex;
     justify-content: space-around;
@@ -98,7 +98,7 @@ footer {
 }
 
 .main-content {
-    width: 60vw;
+    width: 90vw;
 }
 
 .main-container {
@@ -107,17 +107,21 @@ footer {
 }
 
 .layout1-img{
-    width: 50%;
+    width: 480px;
+    height: 480px;
+    border-radius: 5px;
 }
 
-.center-img {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.layout1-img2{
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
 }
 
-.schrift-kursiv{
-    font-style: oblique;
+.layout1-img3{
+    width: 500px;
+    height: 400px;
+    border-radius: 5px;
 }
 
 .container {
@@ -128,20 +132,4 @@ footer {
 .container>div {
     min-width: 100px;
     min-height: 100px;
-}
-
-.green {
-    background-color: green;
-}
-
-.yellow {
-    background-color: yellow;
-}
-
-.blue {
-    background-color: blue;
-}
-
-.red {
-    background-color: red;
 }
